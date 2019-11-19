@@ -3,9 +3,9 @@
     "outDir": "./dist/",
     "sourceMap": true,
     "noImplicitAny": true,
-    "module": "commonjs",
+    "module": "ES2015",
     "esModuleInterop": true,
-    "target": "es5",
+    "target": "ES5",
     "jsx": "react",
     "allowJs": true
   }
