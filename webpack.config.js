@@ -42,7 +42,12 @@ module.exports = {
   devtool: "source-map",
   devServer: {
     contentBase: "./dist",
-    port: 8080
+    host: "0.0.0.0",
+    port: 8080,
+    watchOptions: {
+      aggregateTimeout: 300,
+      poll: 1000
+    }
   },
   plugins: [
     new CleanWebpackPlugin(),
