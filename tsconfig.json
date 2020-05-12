@@ -3,7 +3,6 @@
     "outDir": "./dist/",
     "sourceMap": true,
     "noImplicitAny": true,
-    "module": "ES2015",
     "esModuleInterop": true,
     "target": "ES5",
     "jsx": "react",
